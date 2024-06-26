@@ -1,0 +1,18 @@
+{
+  "name": "richardvanaalst.nl",
+  "description": "Richard van Aalst",
+  "version": "2024.x",
+  "author": "Richard van Aalst",
+  "homepage": "https://richardvanaalst.nl/",
+  "main": "index.html",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardvanaalst/richardvanaalst.nl.git"
+  },
+  "browserslist": [
+    "not Explorer > 0",
+    "not dead"
+  ]
+}
