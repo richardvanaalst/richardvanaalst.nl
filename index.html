@@ -5,58 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Richard van Aalst</title>
 <meta name="description" content="Richard van Aalst: front-end developer and UX/UI designer.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/icon.png">
 <style>
-  @font-face {
-    font-family: "ABeeZee";
-    font-style: normal;
-    font-weight: 400;
-    src: local("ABeeZee Regular"), local("ABeeZee-Regular"),
-      url("https://fonts.gstatic.com/s/abeezee/v11/esDR31xSG-6AGleN2tWkkJUEGpA.woff2")
-      format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @keyframes glow {
-    0% {
-      color: var(--orange);
-      background-color: var(--orange);
-    }
-
-    25% {
-      color: var(--green);
-      background-color: var(--green);
-    }
-
-    50% {
-      color: var(--orange);
-      background-color: var(--orange);
-    }
-
-    75% {
-      color: var(--teal);
-      background-color: var(--teal);
-    }
-
-    100% {
-      color: var(--orange);
-      background-color: var(--orange);
-    }
-  }
-
   :root {
+    --sevilla: hsl(22deg 100 58);
+    --mint: hsl(156deg 42 48);
+    --petrol: hsl(192deg 60 32);
     --gray-100: #e5eef0;
     --gray-400: #686462;
     --gray-800: #3e3a39;
-    --ex-grey-100: #f9f6f4;
     --ex-orange: #ff7425;
     --ex-green: #48ac84;
-    --orange: hsl(22deg 100 58);
-    --green: hsl(156deg 42 48);
-    --teal: hsl(192deg 60 32);
+    --ex-grey-100: #f9f6f4;
   }
 
   *,
@@ -77,8 +40,8 @@
     margin: 0;
     font: 1.125rem / 1.333333 ABeeZee, system-ui, sans-serif;
     text-align: center;
-    color: var(--orange);
-    background-color: var(--orange);
+    color: var(--sevilla);
+    background-color: var(--sevilla);
     background-image: radial-gradient(
       circle at center,
       var(--gray-100) 40%,
@@ -130,12 +93,12 @@
 
   h1 a {
     color: var(--h1-c, var(--gray-800));
-    border-bottom: 2px solid var(--h1-brd, var(--orange));
+    border-bottom: 2px solid var(--h1-brd, var(--sevilla));
   }
 
   h1 a:hover,
   h1 a:focus-visible {
-    --h1-c: var(--orange);
+    --h1-c: var(--sevilla);
     --h1-brd: var(--gray-800);
   }
 
@@ -171,7 +134,7 @@
     overflow: hidden;
     text-align: center;
     color: var(--gray-100);
-    background: var(--orange);
+    background: var(--sevilla);
     border-radius: 50%;
     box-shadow: inset 1px 2px 0 0 hsl(0deg 0 0 / 20%);
   }
@@ -182,7 +145,7 @@
     inset: 0 0 0 auto;
     z-index: 1;
     width: 0;
-    background: var(--social, var(--teal));
+    background: var(--social, var(--petrol));
   }
 
   ul a:hover::after,
@@ -210,6 +173,45 @@
     left: 0;
     color: var(--gray-100);
     opacity: 0;
+  }
+</style>
+<style>
+  @font-face {
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 400;
+    src: local("ABeeZee Regular"), local("ABeeZee-Regular"),
+      url("https://fonts.gstatic.com/s/abeezee/v11/esDR31xSG-6AGleN2tWkkJUEGpA.woff2")
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @keyframes glow {
+    0% {
+      color: var(--sevilla);
+      background-color: var(--sevilla);
+    }
+
+    25% {
+      color: var(--mint);
+      background-color: var(--mint);
+    }
+
+    50% {
+      color: var(--sevilla);
+      background-color: var(--sevilla);
+    }
+
+    75% {
+      color: var(--petrol);
+      background-color: var(--petrol);
+    }
+
+    100% {
+      color: var(--sevilla);
+      background-color: var(--sevilla);
+    }
   }
 </style>
 </head>
