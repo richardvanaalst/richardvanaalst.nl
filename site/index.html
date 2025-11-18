@@ -35,18 +35,12 @@
   body {
     display: grid;
     place-content: center;
-    height: 100vh;
-    padding: 1rem;
+    height: 100dvh;
     margin: 0;
     font: 1.125rem / 1.333333 ABeeZee, system-ui, sans-serif;
     text-align: center;
     color: var(--sevilla);
     background-color: var(--sevilla);
-    background-image: radial-gradient(
-      circle at center,
-      var(--gray-100) 40%,
-      transparent calc(100% - 5vw)
-    );
     animation: glow 24s ease-in-out 1s infinite;
   }
 
@@ -56,16 +50,17 @@
     display: grid;
     place-content: center;
     place-items: center;
-    height: 100%;
-    aspect-ratio: 1;
-    padding: 4rem 2.5rem 0;
     gap: 2rem;
+    aspect-ratio: 1;
+    padding: 4rem 2.5rem 0.5rem;
+    margin: 1rem;
+    transform: translateY(-8%);
     background-image: radial-gradient(
       circle at 50% 44%,
       var(--gray-100) 56%,
       transparent 100%
     );
-    border-radius: 100%;
+    border-radius: 480px;
   }
 
   header {
