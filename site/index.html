@@ -38,7 +38,6 @@
     height: 100dvh;
     margin: 0;
     font: 1.125rem / 1.333333 ABeeZee, system-ui, sans-serif;
-    text-align: center;
     color: var(--sevilla);
     background-color: var(--sevilla);
     animation: glow 24s ease-in-out 1s infinite;
@@ -46,7 +45,6 @@
 
   section {
     position: relative;
-    /*display: contents;*/
     display: grid;
     place-content: center;
     place-items: center;
@@ -76,8 +74,7 @@
     transition: all 180ms ease-in-out;
   }
 
-  h1,
-  h2 {
+  h1, h2 {
     margin: 0;
     font-weight: normal;
   }
@@ -108,7 +105,7 @@
     transform: translate(-50%, -50%);
   }
 
-  p {
+  span {
     color: var(--gray-400);
   }
 
@@ -163,9 +160,7 @@
 
   footer {
     position: fixed;
-    right: 0;
-    bottom: 0.5vw;
-    left: 0;
+    inset: auto 0 0.5rem;
     color: var(--gray-100);
     opacity: 0;
   }
