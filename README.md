@@ -1,3 +1,6 @@
-# ![logo](icon.png) richardvanaalst.nl
+# ![logo](icon.png) Richard van Aalst
 
-🔗 [richardvanaalst.nl](https://richardvanaalst.nl)
+My Schrödinger's website: work in progress and finished.
+
+- 🔗 [richardvanaalst.nl](https://richardvanaalst.nl)
+- 👾 [codeberg/~me~/richardvanaalst.nl](https://codeberg.org/riesma/richardvanaalst.nl)
