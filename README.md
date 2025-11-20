@@ -2,5 +2,5 @@
 
 My Schrödinger's website: work in progress and finished.
 
-- 🔗 [richardvanaalst.nl](https://richardvanaalst.nl)
-- 👾 [codeberg/~me~/richardvanaalst.nl](https://codeberg.org/riesma/richardvanaalst.nl)
+- 🌍 [Go take a look yourself](https://richardvanaalst.nl)
+- 👾 [Codeberg repo](https://codeberg.org/riesma/richardvanaalst.nl)
