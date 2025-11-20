@@ -9,7 +9,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/richardvanaalst/richardvanaalst.nl.git"
+    "url": "https://codeberg.org/riesma/richardvanaalst.nl.git"
   },
   "browserslist": [
     "not Explorer > 0",
